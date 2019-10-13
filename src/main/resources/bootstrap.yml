@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: calculator
+  devtools:
+    restart:
+      log-condition-evaluation-delta: false
+  profiles:
+    active: default
