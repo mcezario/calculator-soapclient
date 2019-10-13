@@ -125,8 +125,6 @@
 								<wsdlOption>
 									<wsdl>${basedir}/src/main/resources/wsdl/calculator.wsdl</wsdl>
 								</wsdlOption>
-
-
 							</wsdlOptions>
 						</configuration>
 					</execution>
