@@ -1,12 +1,12 @@
 - request:
     method: POST
     url: /services/Calculator.CalculatorHttpSoapEndpoint/
-    post: add[\s\S]*n1.(1)
+    post: add[\s\S]*n1.(99)
   response:
     headers:
       content-type: application/soap+xml;charset=UTF-8
-    status: 200
-    file: "calculator/success.xml"
+    status: 500
+    file: "calculator/soapfault.xml"
 
 - request:
     method: POST
@@ -14,5 +14,5 @@
   response:
     headers:
       content-type: application/soap+xml;charset=UTF-8
-    status: 500
-    file: "calculator/soapfault.xml"
+    status: 200
+    file: "calculator/success.xml"
