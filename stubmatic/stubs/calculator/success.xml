@@ -1,0 +1,8 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cal="http://service.operations.com/calculator">
+   <soap:Header/>
+   <soap:Body>
+      <cal:addResponse>
+         <cal:return>5</cal:return>
+      </cal:addResponse>
+   </soap:Body>
+</soap:Envelope>

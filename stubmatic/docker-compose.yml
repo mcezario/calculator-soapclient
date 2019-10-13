@@ -1,0 +1,12 @@
+version: '3'
+services:
+
+  stubmatic:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: calculator-stubmatic
+    ports:
+      - '7777:8080'
+    volumes:
+      - .:/usr/src/app

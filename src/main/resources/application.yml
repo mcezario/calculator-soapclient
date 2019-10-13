@@ -13,7 +13,7 @@ logging:
 
 soap:
   calculator:
-    host: http://localhost:8088/mockCalculator
+    host: http://localhost:7777/services/Calculator.CalculatorHttpSoapEndpoint/
     timeout: 2000
     pool:
       maxTotal: 20
